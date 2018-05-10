@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en-US" class="js svg background-fixed">
+<head>
+    <title>{% block title %} title {% endblock %}</title>
+{% load static %}
+<link rel="stylesheet" id="twentyseventeen-fonts-css" href="{% static 'css' %}" type="text/css" media="all">
+<link rel="stylesheet" id="twentyseventeen-style-css" href="{% static 'style.css' %}" type="text/css" media="all">
+<link rel="stylesheet" id="twentyseventeen-colors-dark-css" href="{% static 'colors-dark.css' %}" type="text/css" media="all">
+<script type="text/javascript" src="{% static "jquery.js" %}"></script>
+<script type = "text/javascript" src = "{% static 'jquery-migrate.min.js'%}" ></script>
+<style id="twentyseventeen-custom-header-styles" type="text/css">
+			.site-title a,
+		.colors-dark .site-title a,
+		.colors-custom .site-title a,
+            {   color: #841658
+            }
+</style>
+ </head>
+<body class="home page-template-default page page-id-29 wp-custom-logo twentyseventeen-front-page has-header-image page-two-column colors-dark">
+<div id="page" class="site">
+    <header id="masthead" class="site-header" role="banner">
+        <div class="navigation-top">
+		    <div class="wrap">
+			    <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
+	                <button class="menu-toggle" aria-controls="top-menu" aria-expanded="false">
+                		<svg class="icon icon-bars" aria-hidden="true" role="img">
+                             <use href="#icon-bars" xlink:href="#icon-bars"></use>
+                        </svg>
+                        <svg class="icon icon-close" aria-hidden="true" role="img">
+                            <use href="#icon-close" xlink:href="#icon-close"></use>
+                        </svg>Menu	'
+                    </button>
+                    <div class="menu-top-container">
+                        <ul id="top-menu" class="menu">
+                                    <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-24"><a href="/">Home</a></li>
+				<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="/dashboard">Dashboard</a></li>
+				<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="/about">About</a></li>
+				<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="/signout" >Sign out</a></li>
+				<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="/administrator">Administrator</a></li>
+ </ul>
+	                </div>
+
+	            </nav><!-- #site-navigation -->
+			</div><!-- .wrap -->
+		</div><!-- .navigation-top -->
+</header><!-- #masthead -->
+</div><!-- .custom-header -->
+
+
+
+	<aside class="widget-area" role="complementary">
+		<div class="widget-column footer-widget-1">
+			<section id="text-8" class="widget widget_text"><h2 class="widget-title">aim</h2>
+			<div class="textwidget"><p>to make a platform where people can share their skills and get more skills because “skills that’s all we need “.</p></div>
+			</section>
+		</div>
+		<div class="wrap">
+			{%  block section %}   {% endblock %}
+				</section>
+			</div>
+		</div>
+	</aside><!-- .widget-area -->
+
+
+
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="wrap">
+	    <aside class="widget-area" role="complementary">
+			<div class="widget-column footer-widget-1">
+				<section id="text-4" class="widget widget_text">
+
+
+
+                </section>
+
+            </div>
+		</aside><!-- .widget-area -->
+
+
+<!--<div class="site-info"> devloped and hosted by :<a href="https://facebook.com/ashutoshverma">Ashutosh verma</a> s/o <a href="https://facebook.com/ashutoshverma">Mr. Vinay verma </a></div>  -->
+    <div class="site-info" >
+        <section id="search-4" class="widget widget_search">
+
+                </section>
+    </div>
+		</footer><!-- #colophon -->
+<script type = "text/javascript" src = "{% static 'skip-link-focus-fix.js' %}" ></script>
+<script type = "text/javascript" src = "{% static 'navigation.js' %} "></script>
+<script type = "text/javascript" src = "{% static 'global.js' %}" ></script>
+<script type = "text/javascript" src = "{% static 'jquery.scrollTo.js' %}" ></script>
+<script type = "text/javascript" src = "{% static 'wp-embed.min.js' %}" ></script>
+</body></html>

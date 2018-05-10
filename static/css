@@ -1,0 +1,128 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Libre Franklin Light Italic'), local('LibreFranklin-LightItalic'), url(https://fonts.gstatic.com/s/librefranklin/v2/7_V210XP3LBEtEwiCTqho_Mgl32ljMu8H_pWOL25QMk.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Libre Franklin Light Italic'), local('LibreFranklin-LightItalic'), url(https://fonts.gstatic.com/s/librefranklin/v2/7_V210XP3LBEtEwiCTqho92YSwxmth3fZ3P-QEPmEeE.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Libre Franklin Italic'), local('LibreFranklin-Italic'), url(https://fonts.gstatic.com/s/librefranklin/v2/zrsyK9EytLQ07oRM9IZIsXwf1fdSCIpOQuabxgqDLfQ.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Libre Franklin Italic'), local('LibreFranklin-Italic'), url(https://fonts.gstatic.com/s/librefranklin/v2/zrsyK9EytLQ07oRM9IZIseUtfrpt7cPHpZOhuUCOpsU.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Libre Franklin SemiBold Italic'), local('LibreFranklin-SemiBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v2/7_V210XP3LBEtEwiCTqho2GUCEHUBmBHu1frduGpqus.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Libre Franklin SemiBold Italic'), local('LibreFranklin-SemiBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v2/7_V210XP3LBEtEwiCTqho-1atm4oO7KTNKY2nLdkEl0.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Libre Franklin ExtraBold Italic'), local('LibreFranklin-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v2/7_V210XP3LBEtEwiCTqho5_DSho10mygkR8SfY62VVY.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Libre Franklin ExtraBold Italic'), local('LibreFranklin-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v2/7_V210XP3LBEtEwiCTqho4j0fOFN-Un4DorBGIrpa4E.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Libre Franklin Light'), local('LibreFranklin-Light'), url(https://fonts.gstatic.com/s/librefranklin/v2/1_DGDtljMiPWFs5rl_p0yCvW69_GwRqDOGeAypbkw5A.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Libre Franklin Light'), local('LibreFranklin-Light'), url(https://fonts.gstatic.com/s/librefranklin/v2/1_DGDtljMiPWFs5rl_p0yIxrGY9qwygaxVs5NHnQzYM.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Franklin'), local('LibreFranklin-Regular'), url(https://fonts.gstatic.com/s/librefranklin/v2/PFwjf3aDdAQPvNKUrT3U7-vQrwA9AegnozFmZyzM4Wo.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Franklin'), local('LibreFranklin-Regular'), url(https://fonts.gstatic.com/s/librefranklin/v2/PFwjf3aDdAQPvNKUrT3U7-OqISmHYRiRLVtru_XOHyc.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Libre Franklin SemiBold'), local('LibreFranklin-SemiBold'), url(https://fonts.gstatic.com/s/librefranklin/v2/1_DGDtljMiPWFs5rl_p0yD0tmh2dSQwkZp16d7-s_h0.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Libre Franklin SemiBold'), local('LibreFranklin-SemiBold'), url(https://fonts.gstatic.com/s/librefranklin/v2/1_DGDtljMiPWFs5rl_p0yOWbxtbdQfcNZ3rffhl709w.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Libre Franklin ExtraBold'), local('LibreFranklin-ExtraBold'), url(https://fonts.gstatic.com/s/librefranklin/v2/1_DGDtljMiPWFs5rl_p0yCyEQfEOWNLyhhHjX0JV30M.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Libre Franklin ExtraBold'), local('LibreFranklin-ExtraBold'), url(https://fonts.gstatic.com/s/librefranklin/v2/1_DGDtljMiPWFs5rl_p0yKTvMkf4lcNvRhTnsxZ8v9E.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}

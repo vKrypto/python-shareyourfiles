@@ -1,0 +1,50 @@
+
+{% extends "layout.html" %}
+
+{% block title %}upload home{% endblock %}
+
+{%  block section %}
+    
+<div class="widget-column footer-widget-2">
+			
+	<section id="text-9" class="widget widget_text"><h2 class="widget-title">file upload </h2>
+					<div class="textwidget">
+
+<ul>
+    
+  <li>
+   
+     <a href="{% url 'simple_upload' %}">Simple Upload</a>
+  
+  </li>
+    
+  <li>
+  
+    <a href="{% url 'model_form_upload' %}">Model Form Upload</a>
+ 
+  </li>
+
+</ul>
+
+  
+<p>Uploaded files:</p>
+ 
+ <ul>
+  
+{% for obj in documents %}
+    
+  <li>
+ <a href="{{ obj.document.url }}">{{ obj.document.name }}</a>
+<small>(Uploaded at: {{ obj.uploaded_at }})</small>
+</li>
+
+ {% endfor %}
+  </ul>
+
+				
+	
+
+ </div>
+{% endblock %}
+
+

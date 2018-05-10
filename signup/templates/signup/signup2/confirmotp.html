@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block title %}SignUp{% endblock %}
+{%  block section %}
+    <div class="widget-column footer-widget-2">
+				<section id="text-9" class="widget widget_text"><h2 class="widget-title">varify otp </h2					<div class="textwidget">
+please verify  {{ phone }}
+
+<form name ='ph' action = "/signup2" method = "POST">{% csrf_token %}
+    <p>    otp recieved in {{ phone }}    <br><input type = "text" name = "otp" /></br>                    </p>
+    <p>  <input type = "submit" value = "Next" /><br>                                   </p>
+                        </form>
+    </div>
+or <br>
+please verify {{mail}}
+
+<form name ='mail' action = "/signup2" method = "POST">{% csrf_token %}
+    <p>    otp recieved  in {{mail}}<br><input type = "text" name = "otp" /></br>              </p>
+    <p>  <input type = "submit" value = "Next" /><br>                                   </p>
+                        </form>
+{% endblock %}
+
+
+      

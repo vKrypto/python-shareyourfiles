@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block title %}SignUp{% endblock %}
+{%  block section %}
+    <div class="widget-column footer-widget-2">
+				<section id="text-9" class="widget widget_text"><h2 class="widget-title">Step3</h2>
+					<div class="textwidget">
+						<form  action = "/signup3" method = "POST">{% csrf_token %}
+    <p>    designation <br><input type = "text" name = "desig" /></br>              </p>
+        <p>  organigation <br><input type = "text" name = "org" /></br>              </p>
+<p>  <input type = "submit" value = "Next" /><br>                                   </p>
+                        </form>
+    </div>
+{% endblock %}
+
+
+      
